@@ -1,2 +1,2 @@
-# CMPT828-project
+# FedMax and FedMedian: Federated learning with trusted aggregator
 CMPT 828 course project
