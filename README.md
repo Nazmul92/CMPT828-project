@@ -5,6 +5,9 @@ In this peoject, I introduced two novel federated aggregation techniques: Federa
 ## Dataset 
 A well-known dermatoscopic image dataset: [HAM10000](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T) is used as experiment data.
 
+## Library and framework
+PySyft==0.7.0 for creating remote workers and PyTorch for deep learning implementation.
+
 ## Folder description
 - client_1 (HAM-data-owner1)
   - This client has total 2800 sample of seven class ( 400 per class)
