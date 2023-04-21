@@ -10,28 +10,8 @@ A well-known dermatoscopic image dataset: [HAM10000](https://dataverse.harvard.e
   - This client has total 2800 sample of seven class ( 400 per class)
 - client_2 (HAM10000-data-owner2)
    - This client has total 2100 sample of seven classes ( 300 per class)
-      - 0/
-        - image_1.png
-        - image_2.png
-        - ...
-      - 1/
-      - ...
-    - test/
-      - 0/
-        - image_1.png
-        - image_2.png
-        - ...
-      - 1/
-      - ...
-  - models/
-    - best_mlp_model.pt
-    - best_cnn_model.pt
-  - notebooks/
-    - data_exploration.ipynb
-    - model_training.ipynb
-    - model_evaluation.ipynb
-  - src/
-    - data.py
-    - models.py
-    - train.py
-    - evaluate.py
+- server-side (HAM-data-scientist)
+   - Global model (LeNet): design and make a copy of the global model for two clients, send the copy to the clients for training the model using their local data, and    implement aggregation for global model updates.
+- data-analysis (course project)
+   - Data balancing, creating two different subsets for two clients.
+      
